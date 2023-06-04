@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.nav-bar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+  height: 30px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-icon {
+  display: flex;
+  align-self: flex-end;
+}
+
+.trigger-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.each-link {
+  font-family: 'Roboto';
+  color: navy;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.route-name {
+  margin-left: 5px;
+}

@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.heading {
+  font-size: 40px;
+  color: navy;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: #616e7c;
+}
+
+.not-found-container {
+  margin-top: 90px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
